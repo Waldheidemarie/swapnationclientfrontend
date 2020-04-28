@@ -1415,6 +1415,13 @@
     react-is "^16.8.0"
     react-transition-group "^4.3.0"
 
+"@material-ui/icons@^4.9.1":
+  version "4.9.1"
+  resolved "https://registry.yarnpkg.com/@material-ui/icons/-/icons-4.9.1.tgz#fdeadf8cb3d89208945b33dbc50c7c616d0bd665"
+  integrity sha512-GBitL3oBWO0hzBhvA9KxqcowRUsA0qzwKkURyC8nppnC3fw54KPKZ+d4V1Eeg/UnDRSzDaI9nGCdel/eh9AQMg==
+  dependencies:
+    "@babel/runtime" "^7.4.4"
+
 "@material-ui/react-transition-group@^4.3.0":
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/@material-ui/react-transition-group/-/react-transition-group-4.3.0.tgz#92529142addb5cc179dbf42d246c7e3fe4d6104b"
@@ -3923,6 +3930,11 @@ data-urls@^1.0.0, data-urls@^1.1.0:
     abab "^2.0.0"
     whatwg-mimetype "^2.2.0"
     whatwg-url "^7.0.0"
+
+dayjs@^1.8.25:
+  version "1.8.25"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.25.tgz#d09a8696cee7191bc1289e739f96626391b9c73c"
+  integrity sha512-Pk36juDfQQGDCgr0Lqd1kw15w3OS6xt21JaLPE3lCfsEf8KrERGwDNwvK1tRjrjqFC0uZBJncT4smZQ4F+uV5g==
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
   version "2.6.9"
@@ -6987,6 +6999,13 @@ jwt-decode@^2.2.0:
   resolved "https://registry.yarnpkg.com/jwt-decode/-/jwt-decode-2.2.0.tgz#7d86bd56679f58ce6a84704a657dd392bba81a79"
   integrity sha1-fYa9VmefWM5qhHBKZX3TkruoGnk=
 
+jwt-js-decode@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/jwt-js-decode/-/jwt-js-decode-1.4.1.tgz#eba402e6686fa666bfa5d8fe996b6c38173fca93"
+  integrity sha512-OQQpCih7pI13lan+kUAyKhoeCYq36SjeiQSLd5f4e7Pg7mGonH62pAoDYBQWOXFhHY9d1h76HjqfQ4pywvOhMw==
+  dependencies:
+    pako "1.0.10"
+
 jxLoader@*:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/jxLoader/-/jxLoader-0.1.1.tgz#0134ea5144e533b594fc1ff25ff194e235c53ecd"
@@ -8138,6 +8157,11 @@ p-try@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
+
+pako@1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.10.tgz#4328badb5086a426aa90f541977d4955da5c9732"
+  integrity sha512-0DTvPVU3ed8+HNXOu5Bs+o//Mbdj9VNQMUOe9oKCwh8l0GNwpTDMKCWbRjgtD291AWnkAgkqA/LOnQS8AmS1tw==
 
 pako@~1.0.5:
   version "1.0.11"
