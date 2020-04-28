@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# //sendgrid API Key
+echo "export SENDGRID_API_KEY='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'" > sendgrid.env
+echo "sendgrid.env" >> .gitignore
+source ./sendgrid.env
+
+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
