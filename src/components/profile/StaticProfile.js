@@ -13,7 +13,6 @@ import LinkIcon from '@material-ui/icons/Link';
 import CalendarToday from '@material-ui/icons/CalendarToday';
 
 const styles = (theme) => ({
-  ...theme
 });
 
 const StaticProfile = (props) => {

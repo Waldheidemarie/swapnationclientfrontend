@@ -10,7 +10,6 @@ import { connect } from 'react-redux';
 import { submitComment } from '../../redux/actions/dataActions';
 
 const styles = (theme) => ({
-  ...theme
 });
 
 class CommentForm extends Component {
