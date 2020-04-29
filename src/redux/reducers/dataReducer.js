@@ -70,3 +70,8 @@ import {
         return state;
     }
   }
+
+//change into this maybe if it doesnt work
+  // if (state.scream.screamId === action.payload.screamId) {
+  //   state.scream = { ...state.scream, ...action.payload };
+  // }

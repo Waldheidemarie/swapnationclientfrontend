@@ -139,3 +139,12 @@ export default connect(
   mapStateToProps,
   { postScream, clearErrors }
 )(withStyles(styles)(PostScream));
+
+//problem maybe with component will receive props method, might be changed after react update
+// static getDerivedStateFromProps(props) {
+//   if (props.UI.errors) {
+//     return {
+//       errors: props.UI.errors
+//     }
+//   }
+// }
