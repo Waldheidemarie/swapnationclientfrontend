@@ -15,25 +15,6 @@ const reducers = combineReducers({
   UI: uiReducer
 });
 
-// const composeEnhancers =
-//   typeof window === 'object' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__
-//     ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({})
-//     : compose;
-
-// const enhancer = composeEnhancers(applyMiddleware(...middleware));
-// const store = createStore(reducers, initialState, enhancer);
-
-// export default store;
-
-
-const store = createStore(
-  reducers,
-  initialState,
-  compose(
-    applyMiddleware(...middleware),
-    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-  )
-);
 const composeEnhancers =
   typeof window === 'object' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__
     ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({})
@@ -43,18 +24,3 @@ const enhancer = composeEnhancers(applyMiddleware(...middleware));
 const store = createStore(reducers, initialState, enhancer);
 
 export default store;
-
-// please check if redux devtools ext is installed before starting it 
-//git clone https://github.com/reduxjs/redux-devtools.git
-// cd redux-devtools/packages/redux-devtools
-// Run npm install in the package folder:
-
-// npm install
-// Now you can open an example folder and run npm install there:
-
-// cd examples/counter # or examples/todomvc
-// npm install
-// Finally, run the development server and open the page:
-
-// npm start
-// open http://localhost:3000
