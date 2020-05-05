@@ -29,6 +29,8 @@ import {
   //userActions.js:25 Uncaught (in promise) TypeError: Cannot read property 'data' of undefined
   //at userActions.js:25
 
+
+
   export const signupUser = (newUserData, history) => (dispatch) => {
     dispatch({ type: LOADING_UI });
     axios
@@ -42,7 +44,7 @@ import {
       .catch((err) => {
         dispatch({
           type: SET_ERRORS,
-          payload: err.response.data
+          payload: err.response ? err.response.data : err
         });
       });
   };
