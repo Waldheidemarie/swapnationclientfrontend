@@ -25,10 +25,10 @@ class signup extends Component {
   constructor() {
     super();
     this.state = {
-      email: '',
-      password: '',
-      confirmPassword: '',
-      handle: '',
+      email: 'test@test.com',
+      password: '1234567890aA!',
+      confirmPassword: '1234567890aA!',
+      handle:'new',
       errors: {}
     };
   }
