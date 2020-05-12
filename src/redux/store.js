@@ -4,7 +4,7 @@ import thunk from 'redux-thunk';
 import userReducer from './reducers/userReducer';
 import dataReducer from './reducers/dataReducer';
 import uiReducer from './reducers/uiReducer';
-
+// import dataeventReducer from './reducers/dataeventReducer';
 const initialState = {};
 
 const middleware = [thunk];
@@ -12,7 +12,8 @@ const middleware = [thunk];
 const reducers = combineReducers({
   user: userReducer,
   data: dataReducer,
-  UI: uiReducer
+  UI: uiReducer,
+  // dataevent: dataeventReducer
 });
 
 const composeEnhancers =
@@ -25,6 +26,8 @@ const store = createStore(reducers, initialState, enhancer);
 
 export default store;
 
+
+//in case of errors regarding dev tools or redux thunk
 // please check if redux devtools ext is installed before starting it 
 //git clone https://github.com/reduxjs/redux-devtools.git
 // cd redux-devtools/packages/redux-devtools

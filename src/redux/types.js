@@ -18,3 +18,12 @@ export const UNLIKE_SCREAM = 'UNLIKE_SCREAM';
 export const DELETE_SCREAM = 'DELETE_SCREAM';
 export const POST_SCREAM = 'POST_SCREAM';
 export const SUBMIT_COMMENT = 'SUBMIT_COMMENT';
+
+// Data reducer types for creating events
+// export const SET_EVENTSCREAMS = 'SET_EVENTSCREAMS';
+// export const SET_EVENTSCREAM = 'SET_EVENTSCREAM';
+// export const ATTEND_SCREAM = 'ATTEND_SCREAM';
+
+// export const DELETEATTEND_SCREAM = 'DELETEATTEND_SCREAM';
+// export const POSTEVENT_SCREAM = 'POSTEVENT_SCREAM';
+// export const SUBMITEVENT_COMMENT = 'SUBMITEVENT_COMMENT';
